@@ -137,7 +137,7 @@ void loop()
     Serial.print(button_state);
 #endif    
     //if(digitalRead(ROTATE_BT_PIN) == LOW)
-    if(digitalRead(ROTATE_BT_PIN == LOW))
+    if(digitalRead(ROTATE_BT_PIN) == LOW)
     { 
       switch(cRotationCounter)
       {
@@ -172,17 +172,17 @@ void loop()
         break;
       }
     }
-    else if (digitalRead(FW_BT_PIN))
+    else if (digitalRead(FW_BT_PIN) == LOW)
     {
       Keyboard.write('n');
       delay(DEBOUNCE_TIME);
     }
-    else if (digitalRead(BK_BT_PIN))
+    else if (digitalRead(BK_BT_PIN) == LOW)
     {
       Keyboard.write('p');
       delay(DEBOUNCE_TIME);
     }
-    else if (digitalRead(RT_TDY_BT_PIN))
+    else if (digitalRead(RT_TDY_BT_PIN) == LOW)
     {
       Keyboard.write('t');
       delay(DEBOUNCE_TIME);

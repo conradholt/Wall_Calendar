@@ -1,6 +1,6 @@
 // GLOBAL INCLUDES .H
 #include <Keyboard.h>
-
+#include <Mouse.h>
 // GLOBAL DEFINES
 #define SENSOR_PIN 10                                         // Digital Sensor state input pin
 #define RX_LED_PIN  17                                        // The RX LED has a defined Arduino pin
@@ -94,8 +94,8 @@ void loop()
       //Keyboard.release(KEY_RETURN);                         // Release the Enter key
     
       delay(1500);
-      
-      Mouse.move(9000,9000,0);                                // Hide the mouse
+
+      for(char i = 0; i <= 11;i++) Mouse.move(125,125,0);     // Hide the mouse
       Keyboard.press(KEY_F5);                                 // Refresh the website
       Keyboard.release(KEY_F5);
 

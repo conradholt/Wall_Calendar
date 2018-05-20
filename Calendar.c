@@ -94,7 +94,11 @@ void loop()
       //Keyboard.release(KEY_RETURN);                         // Release the Enter key
     
       delay(1500);
-    
+      
+      Mouse.move(9000,9000,0);                                // Hide the mouse
+      Keyboard.press(KEY_F5);                                 // Refresh the website
+      Keyboard.release(KEY_F5);
+
       cRotationCounter = 'w';                                 // Restart the Counter
       Keyboard.write('w');
       vPressKey();

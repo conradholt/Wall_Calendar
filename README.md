@@ -33,7 +33,7 @@ Go to your personal calendar and follow instructions:
 
 Continue to the next screen (Choose the visualization of your calendar, full detail, read/write, busy/free..)
 
-![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/Screenshot from 2018-07-27 13-35-42.png)
+![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/Screenshot%20from%202018-07-27%2013-35-42.png)
 
 Source: https://support.google.com/calendar/answer/37082
 

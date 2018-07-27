@@ -29,70 +29,51 @@ PlatformIO
 
 Go to your personal calendar and follow instructions:
 
+![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/Screenshot%20from%202018-07-27%2013-35-21.png)
+
+Continue to the next screen (Choose the visualization of your calendar, full detail, read/write, busy/free..)
+
+![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/Screenshot from 2018-07-27 13-35-42.png)
+
 Source: https://support.google.com/calendar/answer/37082
-```
-Give the example
-```
 
-And repeat
+Sharing Google calendar with Apple calendar
+https://support.google.com/calendar/answer/99358?co=GENIE.Platform%3DiOS&hl=en&oco=0
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Sharing Apple Calendar with Google calendar
+http://www.everythingicafe.com/add-view-icloud-calendars-google-calendar/
 
 ```
-Give an example
+Download the code
 ```
 
-### And coding style tests
+git clone git@github.com:conradholt/Wall_Calendar.git
 
-Explain what these tests test and why
+or just open Wall_Calendar/Arduino/Calendar.ino and visualize as raw, then copy the code and paste it to your prefered
+IDE.
 
 ```
-Give an example
+Example
 ```
+I used this with my roommate and makes things much more easier!
+
+![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/Screenshot%20from%202018-07-27%2014-06-21.png)
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Upload the code directly to the Arduino (please make sure it's compatible with UNO)
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [ARDUINO IDE](https://www.arduino.cc/en/Guide/HomePage) - The environment used
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Chris Dudley** - *Founder*
+
+* **Conrad Holt** - *Co-Founder* - (https://github.com/conradholt)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 

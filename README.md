@@ -57,17 +57,17 @@ Example
 ```
 I used this with my roommate and makes things much more easier!
 
+![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/Screenshot%20from%202018-07-27%2014-06-21.png)
+
+![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/IMG_6265.JPG)
+
 ## Deployment
 
-Upload the code directly to the Arduino (please make sure it's compatible with UNO)
+Upload the code directly to the Arduino (please make sure it's compatible with micro)
 
 ## Built With
 
 * [ARDUINO IDE](https://www.arduino.cc/en/Guide/HomePage) - The environment used
-
-![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/Screenshot%20from%202018-07-27%2014-06-21.png)
-
-![alt text](https://github.com/conradholt/Wall_Calendar/blob/master/tmp/IMG_6265.JPG)
 
 ## Authors
 

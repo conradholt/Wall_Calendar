@@ -67,9 +67,13 @@ Upload the code directly to the Arduino (please make sure it's compatible with U
 
 * [ARDUINO IDE](https://www.arduino.cc/en/Guide/HomePage) - The environment used
 
+
+
 ## Authors
 
-* **Chris Dudley** - *Founder*
+* **Robert Roberts** - *Co-Founder*
+
+* **Chris Dudley** - *Co-Founder*
 
 * **Conrad Holt** - *Co-Founder* - (https://github.com/conradholt)
 
